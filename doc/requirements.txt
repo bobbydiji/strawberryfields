@@ -7,7 +7,7 @@ m2r2==0.3.1
 mistune==0.8.4
 numba==0.53.1
 networkx==2.6.3
-numpy==1.19.2
+numpy==1.22.2
 plotly==4.4.1
 protobuf<4.21.0  # remove when fix is released
 quantum-blackbird==0.4.0
@@ -21,3 +21,8 @@ tensorflow==2.6.3
 thewalrus==0.18.0
 toml==0.10.2
 xanadu-sphinx-theme==0.1.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
