@@ -12,3 +12,4 @@ numba
 requests
 urllib3
 plotly
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
